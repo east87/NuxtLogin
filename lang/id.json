@@ -1,0 +1,29 @@
+{
+"signinTitle": "Sign In to Galad",
+"signinSubTitle": "Welcome back! Let’s find out your crypto portfolio performance",
+
+"textHaveNotAccount":"Don’t have any account yet?",
+
+"signupTitle": "Sign Up to Galad",
+"signupSubTitle": "Welcome to Galad! Enter your information details and let’s start investing",
+"textAgreeSignup":"By clicking “Sign Up”, you agree to our <a href='/termservice'>Terms of Service</a>  and that you have read our <a href='/privacypolicy'> Privacy Policy</a>",
+"textHaveAccount":"Already have an account? Sign in",
+
+
+"errorRequire":"{0} is required ",
+"errorFormat":"{0} format must {1} type",
+"errorMinLength":"{0} minimum {1} length",
+"errorMaxLength":"{0} maximum {1} length",
+"errorPhoneLength":"{0} must between {1} to {2} length",
+"errorPasswordFormat":"Password must cointain an uppercase, lowercase, number and special character",
+"errorPasswordSameAs":"Password confirmation not same as password",
+
+"forgetPasswordTitle":"forget Password?",
+"forgetPasswordSubTitle":"Choose which method you want to use to reset your password",
+
+
+"textResetPasswordEmail":"Reset password via email address:",
+"textResetPasswordPhone":"Reset password via Otp Call:",
+"resetByEmailWording":"Enter email to reset password",
+"resetByPhoneWording":"Enter phone to reset password"
+}

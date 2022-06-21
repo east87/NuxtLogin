@@ -1,0 +1,230 @@
+*,
+:after,
+:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  font-style: normal;
+  color: var(--type-black);
+}
+.text-body-1 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.text-body-2 {
+  font-size: 18px;
+  line-height: 25.2px;
+}
+.text-body-3 {
+  font-size: 16px;
+  line-height: 22.4px;
+}
+.text-body-4 {
+  font-size: 14px;
+  line-height: 19.6px;
+}
+.text-body-5 {
+  font-size: 12px;
+  line-height: 14.4px;
+}
+.text-body-6 {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.font-100 {
+  font-weight: 100;
+}
+.font-200 {
+  font-weight: 200;
+}
+.font-300 {
+  font-weight: 300;
+}
+.font-400 {
+  font-weight: 400;
+}
+.font-500 {
+  font-weight: 500;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.4em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+h4 {
+  font-size: 1.6em;
+}
+
+h5 {
+  font-size: 1.4em;
+}
+h6 {
+  font-size: 1.2em;
+}
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+button:not(:disabled),
+[type='button']:not(:disabled),
+[type='reset']:not(:disabled),
+[type='submit']:not(:disabled) {
+  cursor: pointer;
+}
+.btn-block {
+  display: block;
+  width: 100%;
+}
+button.btn-flag:hover,
+button.btn-flag:visited,
+button.btn-flag:focus {
+  background: transparent !important;
+  color: var(--input-color);
+  box-shadow: none;
+}
+.btn-outline-secondary {
+  color: var(--devider-border-grey-3);
+  border-color: var(--devider-border-grey-3);
+  font-size: 0.8em;
+  height: calc(2em + 0.75rem + 2px) !important;
+}
+
+/*
+SIGNIN & SIGNUP CSS
+*/
+.icon-page {
+  width: 120px;
+  height: auto;
+}
+.form-control {
+  font-size: 0.8em;
+  border-color: var(--devider-border-grey-3);
+  height: calc(2em + 0.75rem + 2px);
+  color: var(--input-color);
+}
+.form-group label {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+span.icon-input-left {
+  position: absolute;
+  right: 1.5em;
+  margin-top: -2em;
+}
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+  border-color: var(--type-state-error);
+  background: none;
+}
+.input-isvalid {
+  width: 100%;
+  margin-top: 0.25rem;
+  color: var(--type-state-success);
+  padding-right: calc(1.5em + 0.75rem) !important;
+}
+.input-isvalid::before {
+  width: 1.2em;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8' viewBox='0 0 8 8'%3e%3cpath fill='%2328a745' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+}
+.invalid-feedback {
+  display: none;
+  width: 100%;
+  margin-top: 0.25rem;
+  color: var(--type-state-error);
+  padding-right: calc(1.5em + 0.75rem) !important;
+}
+
+.invalid-feedback::before {
+  width: 1.2em;
+  content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='none' stroke='%23dc3545' viewBox='0 0 12 12'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23dc3545' stroke='none'/%3e%3c/svg%3e");
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid {
+  border-color: var(--type-state-success);
+  padding-right: calc(1.5em + 0.75rem) !important;
+  background: none;
+}
+.form-control:focus,
+.form-control:visited,
+.form-control:active,
+.form-control:hover,
+.form-control:invalid,
+.was-validated .form-control:invalid:focus,
+.form-control.is-invalid:focus {
+  box-shadow: none;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: var(--primary-brand-6);
+  border-color: var(--primary-brand-2);
+  outline: 0;
+}
+
+.is-invalid .custom-checkbox .custom-control-label::before {
+  border-color: var(--type-state-error);
+}
+.col-reset button {
+  background: var(--neutral-color);
+  border: 1px solid rgba(157, 166, 174, 0.4);
+  border-radius: 4px;
+  min-height: 80px;
+}
+
+.col-reset button:hover,
+.col-reset button:visited,
+.col-reset button:focus {
+  border: 1px solid var(--primary-brand);
+}
+.col-reset button span {
+  float: left;
+  position: inherit;
+}
+
+/*
+Modal
+*/
+.modal-header {
+  border-bottom: none;
+  padding: 0.5rem 0.5rem;
+}
+.modal-header .close {
+  font-weight: 400;
+  font-size: 1.5em;
+}
